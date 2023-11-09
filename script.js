@@ -1,6 +1,6 @@
 function changeText() {
     // this should change the displlay text
-    let textList = ['text1','text2','text3','text4','text5', 'tesxt7'];
+    let textList = ['text1','text2','text3','text4','text5'];
     let randomNumber = getRandomNumber(0, textList.length - 1);
     console.log(randomNumber);
     document.getElementById('header').innerHTML = textList[randomNumber];
